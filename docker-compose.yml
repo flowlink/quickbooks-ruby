@@ -1,0 +1,7 @@
+version: "3"
+
+services:
+  quickbooks-ruby:
+    build: .
+    volumes:
+      - ${PWD}:/app
